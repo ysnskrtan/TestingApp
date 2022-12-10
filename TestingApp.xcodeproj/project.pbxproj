@@ -14,6 +14,7 @@
 		C6A7EFA22944A71D00C38494 /* TestingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A7EFA12944A71D00C38494 /* TestingAppTests.swift */; };
 		C6A7EFAC2944A71D00C38494 /* TestingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A7EFAB2944A71D00C38494 /* TestingAppUITests.swift */; };
 		C6A7EFAE2944A71D00C38494 /* TestingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A7EFAD2944A71D00C38494 /* TestingAppUITestsLaunchTests.swift */; };
+		C6A7EFBD2944ABA000C38494 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = C6A7EFBC2944ABA000C38494 /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C6A7EFA72944A71D00C38494 /* TestingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A7EFAB2944A71D00C38494 /* TestingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppUITests.swift; sourceTree = "<group>"; };
 		C6A7EFAD2944A71D00C38494 /* TestingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6A7EFBC2944ABA000C38494 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				C6A7EFA12944A71D00C38494 /* TestingAppTests.swift */,
+				C6A7EFBC2944ABA000C38494 /* data.json */,
 			);
 			path = TestingAppTests;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6A7EFBD2944ABA000C38494 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
